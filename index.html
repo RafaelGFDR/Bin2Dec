@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Hecho por Rafael García-->
 
 <head>
     <meta charset="UTF-8">
@@ -8,20 +9,24 @@
     <!-- hoja de estilos -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- título de página -->
-    <title>Título de la página</title>
+    <title>Bin2Dec-App</title>
     <!-- ícono de pàgina -->
-    <!-- fuentes -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- javascript -->
+    <script src="js/main.js"></script>
 </head>
 
-<body class="flex">
-    <div>
-        <h2>Bin2Dec App</h2>
-        <p>Enter a binary number, get a decimal conversion</p>
-        <p id="nobinario"></p><br>
-        <input type="number" name="numero" id="valor"><br>
-        <p></p>
+<body>
+    <div class="flex">
+        <div>
+            <h2>Bin2Dec App</h2>
+            <p>Enter a binary number, get a decimal conversion</p>
+            <p id="bienomal" ></p>
+            <input type="number" name="numero" id="valor" onkeyup="calcular()">
+            <p id="resultado"></p>
+        </div>
     </div>
+    <footer>Made by <a href="https://github.com/RafaelGFDR">@RafaelGFDR</a><br>&#129302</footer>
 </body>
 
 </html>

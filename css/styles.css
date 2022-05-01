@@ -46,7 +46,6 @@ h6 {
 
 body {
     margin: 0;
-    height: 100vh;
     background-color: black;
     color: white;
     font-family: 'Oxygen', sans-serif;
@@ -109,16 +108,17 @@ input {
     background-color: black;
     border-color: white;
     width: 100%;
-    height: 10vh;
-    font-size: x-large;
+    height: 70px;
+    font-size: xx-large;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -130,7 +130,20 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
-
+footer {
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+#bienomal {
+    padding-bottom: 3%;
+}
+#resultado {
+    padding-top: 3%;
+}
+a {
+    color: white;
+}
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
@@ -138,6 +151,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 90vh;
 }
 
 @media only screen and (max-width: 600px) {
